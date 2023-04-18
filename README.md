@@ -1,2 +1,2 @@
-# youmeal_landing_page
-Creating landing page by using figma's community design.
+#YouMeal
+Creating landing page for "YouMeal" by using figma's community design, the screen resolution is 1440, please be attentive.
