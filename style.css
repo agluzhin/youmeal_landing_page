@@ -27,15 +27,10 @@ html {
 	gap: 7.16px;
 }
 
-.logo__text {
+.logo__icon {
 	color: #ffffff;
-	width: 114.39px;
-	height: 18.36px;
-}
-
-.logo__img {
-	width: 28.77px;
-	height: 27.66px;
+	width: 150px;
+	height: 29px;
 }
 
 .content {
@@ -129,7 +124,7 @@ html {
 
 .main-space {
 	width: 100%;
-	height: 1024px;
+	height: 980px;
 	display: flex;
 	padding: 0 75px 0 75px;
 	gap: 30px;
@@ -141,6 +136,7 @@ html {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
+	align-content: flex-start;
 	flex-wrap: wrap;
 	background: #FFFFFF;
 	border-radius: 18px;
@@ -169,6 +165,7 @@ html {
 	justify-content: center;
 	align-items: center;
 	font-size: 12px;
+	margin-bottom: 14px;
 }
 
 .chart__item {
@@ -212,11 +209,13 @@ html {
 	color: #B1B1B1;
 }
 
-.main-space__total, .main-space__total-score{
+.chart__total, .chart__total-score{
+	margin-top: 16px;
+	margin-bottom: 24px;
 	line-height: 21px;
 }
 
-.main-space__button {
+.chart__button {
 	width: 268px;
 	height: 40px;
 	background: #FF7020;
@@ -224,12 +223,83 @@ html {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+
+	margin-bottom: 8px;
+}
+
+.chart__button-text {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+.chart__delivery {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap: 8px;
+
+	font-size: 12px;
 }
 
 .main-space__burgers {
 	width: 960px;
 	height: 952px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-content: flex-start;
+	gap: 30px;
 }
 
+.burger__card {
+	width: 300px;
+	height: 411px;
+	display: flex;
+	flex-direction: column;
+	padding: 12px;
+	background: #FFFFFF;
+	border-radius: 18px;
 
+	font-family: 'Nunito';
+	font-weight: 400;
+	font-size: 16px;
+}
 
+.card__price {
+	margin-top: 16px;
+	margin-bottom: 8px;
+	font-size: 24px;
+	font-weight: 600;
+}
+
+.card__calories {
+	margin-top: 29px;
+	margin-bottom: 8px;
+	color: #B1B1B1;
+}
+
+.card__button {
+	width: 276px;
+	height: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: #F2F2F3;
+	border-radius: 12px;
+}
+.card__button-text {
+	text-decoration: none;
+	color: #000000;
+}
+
+/*Footer*/
+.footer {
+	width: 100%;
+	height: 244px;
+	background: #FFFFFF;
+	padding: 51px 211px 40px 75px;
+
+	font-family: 'Nunito';
+	font-weight: 400;
+	font-size: 16px;
+}
