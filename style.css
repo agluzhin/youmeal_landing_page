@@ -298,8 +298,64 @@ html {
 	height: 244px;
 	background: #FFFFFF;
 	padding: 51px 211px 40px 75px;
+	display: flex;
+	flex-direction: column;
+	white-space: nowrap;
+
 
 	font-family: 'Nunito';
 	font-weight: 400;
 	font-size: 16px;
+}
+
+.footer__main {
+	height: 117px;
+	display: flex;
+	flex-direction: row;
+}
+
+.footer__logo {
+	align-self: flex-start;
+}
+
+.footer__phone {
+	margin-left: 360px;
+	display: flex;
+	flex-direction: column;
+	gap: 24px;
+}
+
+.phone__text {
+	font-size: 24px;
+}
+
+.footer__phone-info {
+	display: flex;
+	flex-direction: row;
+	gap: 7px;
+}
+
+.footer__social {
+	margin-left: 126px;
+	display: flex;
+	flex-direction: column;
+	gap: 22px;
+}
+
+.social__text {
+	font-size: 24px;
+}
+
+.footer__social-icons {
+	display: flex;
+	flex-direction: row;
+	gap: 16px;
+}
+
+.footer__frame {
+	display: flex;
+	flex-direction: column;
+	gap: 4px;
+	
+	font-size: 12px;
 }
