@@ -4,7 +4,9 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="style.css" type="text/css">
+	<link rel="stylesheet" href="style/header.css" type="text/css">
+	<link rel="stylesheet" href="style/main.css" type="text/css">
+	<link rel="stylesheet" href="style/footer.css" type="text/css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;800&display=swap" rel="stylesheet">
@@ -62,7 +64,6 @@
 				<p class="tags_sauce__text">Соусы</p>
 			</div>
 		</div>
-		<p class="main-space__heading">Бургеры</p>
 		<div class="main-space">
 			<div class="main-space__chart">
 				<h2 class="main-space__chart-heading">Корзина</h2>
@@ -102,8 +103,10 @@
 						<p class="button__increase">+</p>
 					</div>
 				</div>
-				<p class="chart__total">Итого</p>
-				<p class="chart__total-score">1279</p>
+				<div class="chart__total">
+					<p class="chart__total-text">Итого</p>
+					<p class="chart__total-score">1279</p>
+				</div>
 				<div class="chart__button">
 					<a class="chart__button-text" href="#">Оформить заказ</a>
 				</div>
@@ -113,58 +116,61 @@
 				</div>
 			</div>
 			<div class="main-space__burgers">
-				<div class="burger__card">
-					<img class="card__icon" src="img/main/burgers/meat_bomb.png" alt="burger_meat_bomb">
-					<p class="card__price">689₽</p>
-					<p class="card__name">Мясная бомба</p>
-					<p class="card__calories">520г</p>
-					<div class="card__button">
-						<a class="card__button-text" href="#">Добавить</a>
+				<p class="main-space__heading">Бургеры</p>
+				<div class="main-space__burgers-block">
+					<div class="burger__card">
+						<img class="card__icon" src="img/main/burgers/meat_bomb.png" alt="burger_meat_bomb">
+						<p class="card__price">689₽</p>
+						<p class="card__name">Мясная бомба</p>
+						<p class="card__calories">520г</p>
+						<div class="card__button">
+							<a class="card__button-text" href="#">Добавить</a>
+						</div>
 					</div>
-				</div>
-				<div class="burger__card">
-					<img class="card__icon" src="img/main/burgers/super_cheese.png" alt="burger_super_cheese">
-					<p class="card__price">550₽</p>
-					<p class="card__name">Супер сырный</p>
-					<p class="card__calories">512г</p>
-					<div class="card__button">
-						<a class="card__button-text" href="#">Добавить</a>
+					<div class="burger__card">
+						<img class="card__icon" src="img/main/burgers/super_cheese.png" alt="burger_super_cheese">
+						<p class="card__price">550₽</p>
+						<p class="card__name">Супер сырный</p>
+						<p class="card__calories">512г</p>
+						<div class="card__button">
+							<a class="card__button-text" href="#">Добавить</a>
+						</div>
 					</div>
-				</div>
-				<div class="burger__card">
-					<img class="card__icon" src="img/main/burgers/nourishing.png" alt="burger_nourishing">
-					<p class="card__price">639₽</p>
-					<p class="card__name">Сытный</p>
-					<p class="card__calories">580г</p>
-					<div class="card__button">
-						<a class="card__button-text" href="#">Добавить</a>
+					<div class="burger__card">
+						<img class="card__icon" src="img/main/burgers/nourishing.png" alt="burger_nourishing">
+						<p class="card__price">639₽</p>
+						<p class="card__name">Сытный</p>
+						<p class="card__calories">580г</p>
+						<div class="card__button">
+							<a class="card__button-text" href="#">Добавить</a>
+						</div>
 					</div>
-				</div>
-				<div class="burger__card">
-					<img class="card__icon" src="img/main/burgers/hard_hit.png" alt="burger_hard_hit">
-					<p class="card__price">480₽</p>
-					<p class="card__name">Тяжелый удар</p>
-					<p class="card__calories">470г</p>
-					<div class="card__button">
-						<a class="card__button-text" href="#">Добавить</a>
+					<div class="burger__card">
+						<img class="card__icon" src="img/main/burgers/hard_hit.png" alt="burger_hard_hit">
+						<p class="card__price">480₽</p>
+						<p class="card__name">Тяжелый удар</p>
+						<p class="card__calories">470г</p>
+						<div class="card__button">
+							<a class="card__button-text" href="#">Добавить</a>
+						</div>
 					</div>
-				</div>
-				<div class="burger__card">
-					<img class="card__icon" src="img/main/burgers/great_classics.png" alt="burger_great_classics">
-					<p class="card__price">450₽</p>
-					<p class="card__name">Вечная классика</p>
-					<p class="card__calories">450г</p>
-					<div class="card__button">
-						<a class="card__button-text" href="#">Добавить</a>
+					<div class="burger__card">
+						<img class="card__icon" src="img/main/burgers/great_classics.png" alt="burger_great_classics">
+						<p class="card__price">450₽</p>
+						<p class="card__name">Вечная классика</p>
+						<p class="card__calories">450г</p>
+						<div class="card__button">
+							<a class="card__button-text" href="#">Добавить</a>
+						</div>
 					</div>
-				</div>
-				<div class="burger__card">
-					<img class="card__icon" src="img/main/burgers/italian.png" alt="burger_italian">
-					<p class="card__price">560₽</p>
-					<p class="card__name">Итальянский</p>
-					<p class="card__calories">510г</p>
-					<div class="card__button">
-						<a class="card__button-text" href="#">Добавить</a>
+					<div class="burger__card">
+						<img class="card__icon" src="img/main/burgers/italian.png" alt="burger_italian">
+						<p class="card__price">560₽</p>
+						<p class="card__name">Итальянский</p>
+						<p class="card__calories">510г</p>
+						<div class="card__button">
+							<a class="card__button-text" href="#">Добавить</a>
+						</div>
 					</div>
 				</div>
 			</div>
