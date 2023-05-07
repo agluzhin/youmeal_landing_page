@@ -18,8 +18,14 @@ body {
 	width: 100%;
 	height: 466px;
 	align-items: center;
-	background: url('/img/header/bg_ellipse.svg');
-	background-repeat: no-repeat;
+}
+
+.background__image {
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	z-index: -1;
 }
 
 .logo {
