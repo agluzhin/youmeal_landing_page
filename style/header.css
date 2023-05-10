@@ -8,10 +8,6 @@ html {
 	background-color: #F2F2F3;
 }
 
-body {
-	max-width: 1440px;
-}
-
 .header {
 	display: flex;
 	flex-direction: column;
@@ -20,8 +16,15 @@ body {
 	align-items: center;
 }
 
-.background__image {
+.background {
+	width: 100%;
+	display: flex;
 	position: absolute;
+	justify-content: center;
+	align-items: center;
+}
+
+.background__image {
 	top: 0;
 	right: 0;
 	left: 0;

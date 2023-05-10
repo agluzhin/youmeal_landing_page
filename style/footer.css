@@ -1,12 +1,13 @@
 .footer {
-	width: 100%;
+	max-width: 1440px;
 	height: 244px;
 	background: #FFFFFF;
 	padding: 51px 211px 40px 75px;
 	display: flex;
 	flex-direction: column;
 	white-space: nowrap;
-
+	align-items: center;
+	gap: 34px;
 
 	font-family: 'Nunito';
 	font-weight: 400;
@@ -25,6 +26,7 @@
 
 .footer__phone {
 	margin-left: 360px;
+	margin-right: 126px;
 	display: flex;
 	flex-direction: column;
 	gap: 24px;
@@ -41,7 +43,6 @@
 }
 
 .footer__social {
-	margin-left: 126px;
 	display: flex;
 	flex-direction: column;
 	gap: 22px;
@@ -59,6 +60,7 @@
 
 .footer__frame {
 	display: flex;
+	align-self: self-start;
 	flex-direction: column;
 	gap: 4px;
 	
